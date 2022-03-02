@@ -58,16 +58,7 @@
 
 <body>
     <div class="bg-container">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="topnav col-sm">
-                    <a class="returnbtn" href="index.php">Home</a>
-                </div>
-                <div class="topnav col-sm">
-                    <a class="returnbtn" href="preview.php">Preview</a>
-                </div>
-            </div>
-        </div>
+        
         <h1 class="font-effect-fire">EDIT FORM</h1>
         <div class="sub-container">
             <div class="child-container">
@@ -116,6 +107,16 @@
                         <textarea type="text" id="description" name="description"
                             placeholder="insert comment here..."><?php echo $account['description']; ?></textarea>
                         <input type="submit" value="Save" name="editAccount" class="button">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="topnav col-sm">
+                                    <a class="returnbtn" href="index.php">Home</a>
+                                </div>
+                                <div class="topnav col-sm">
+                                    <a class="returnbtn" href="preview.php">Preview</a>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                     <?php endif; ?>
                 </div>

@@ -96,7 +96,13 @@
                         <label for="description">Description</label>
                         <textarea type="text" id="description" name="description" placeholder="insert comment here..."></textarea>
                         <input type="submit" value="Add" name="newAccount" class="button">
-                        <a class="previewbtn" href="preview.php">Preview</a>
+                        <div class="container">
+                            <div class="row">
+                                <div class="topnav col-sm">
+                                    <a class="returnbtn" href="preview.php">Preview</a>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

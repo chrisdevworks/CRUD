@@ -259,6 +259,7 @@ textarea {
     border: none;
     cursor: pointer;
     transition: background-color 0.5s;
+    text-align: center;
 }
 
 .returnbtn:hover{
