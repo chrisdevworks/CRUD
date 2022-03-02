@@ -258,6 +258,11 @@ textarea {
     padding: 10px 10px;
     border: none;
     cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.returnbtn:hover{
+    background-color: #fffb00;
 }
 
 .topnav {
@@ -332,3 +337,15 @@ form.searchform::after {
 
 
 /* ---------------------------SEARCH BAR END------------------------- */
+
+/* ---------------------------BOOSTRAP------------------------- */
+
+.col-sm{
+    padding-left: unset;
+    padding-right: unset;
+}
+
+
+
+/* ---------------------------BOOSTRAP END------------------------- */
+

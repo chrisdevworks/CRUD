@@ -12,6 +12,7 @@
     }
     $result = $connect->query($sql);
       //////////////////////////////////////////
+
 ?>
 
 
@@ -22,10 +23,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="mystyle.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|Sofia&effect=neon|outline|emboss|shadow-multiple">
-    <script src="sort-table.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="sort-table.js"></script>
     <script type="text/javascript">
       function deleteAccount(id){
         if(confirm("Are you sure to delete?")){
@@ -38,7 +40,7 @@
 <body>
     <div class="bg-container">
         <div class="topnav">
-            <a class="returnbtn" href="index.php">Return</a>
+            <a class="returnbtn" href="index.php">Home</a>
         </div>
         <h1 class="font-effect-fire">TABLE PREVIEW</h1>
         <div class="search-container">
