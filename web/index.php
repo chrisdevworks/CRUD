@@ -68,22 +68,22 @@
                     <form action="index.php" method="post" id="myForm">
                         <!-- // Label "For" and Input "ID" must be the same -->
                         <label for="idNum"><i class="fa fa-user"></i>  ID Number</label>
-                        <input type="text" id="idNum" name="id" placeholder="Your ID.." class="input-field">
+                        <input type="text" id="idNum" name="id" placeholder="Your ID.." class="input-field" required>
 
                         <label for="fname"><i class="fa fa-user"></i>  First Name</label>
-                        <input type="text" id="fname" name="firstName" placeholder="Your name.." class="input-field">
+                        <input type="text" id="fname" name="firstName" placeholder="Your name.." class="input-field" required>
 
                         <label for="lname"><i class="fa fa-user"></i>  Last Name</label>
-                        <input type="text" id="lname" name="lastName" placeholder="Your last name.." class="input-field">
+                        <input type="text" id="lname" name="lastName" placeholder="Your last name.." class="input-field" required>
 
                         <label for="uAge"><i class="fa fa-user"></i>  Age</label>
-                        <input type="text" id="uAge" name="age" placeholder="Your age.." class="input-field">
+                        <input type="text" id="uAge" name="age" placeholder="Your age.." class="input-field" required>
 
                         <label for="uEmail"><i class="fa fa-envelope"></i>  Email</label>
-                        <input type="text" id="uEmail" name="email" placeholder="john@example.com" class="input-field">
+                        <input type="text" id="uEmail" name="email" placeholder="john@example.com" class="input-field" required>
 
                         <label for="adr"><i class="fa fa-address-card-o"></i>  Address</label>
-                        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
 
                         <label for="country"><i class="fa fa-institution"></i> Country</label>
                         <select id="country" name="country">
